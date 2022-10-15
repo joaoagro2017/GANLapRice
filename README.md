@@ -8,6 +8,13 @@ This repository provides a pytorch pre-trained model inference for generating sy
 python generate.py --outdir=out --trunc=1 --seeds=85,265,297,849 \
       --network=https://
 
+## Filtering blurry Synthetic Images
+python laplacian.py 
+
+
+
+## Synthetic Datasets of Rice Leaf Disease
+This url provides a 50,001 synthetic raw images of rice leaf diseases (Bacterial Blight, Tungro, Brown Spot and Rice Blast)   
 
 ##  Experimental Datasets Description
 For training, our study used Rice Leaf Disease Image Samples from Mendeley Data https://data.mendeley.com/datasets/fwcj7stb8r/1 ,it’s an open-source dataset with 5,932 images of rice leaf disease. The images are grouped into four rice leaf 
