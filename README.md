@@ -17,6 +17,8 @@ python projector.py --outdir=out --target=~/rice_leaf_disease.png \
 ## Filtering blurry Synthetic Images
 python Laplacian.py
 
+After generating synthetic images of rice leaf diseases, use the laplacian filter to remove the blurry ones
+
 ## Synthetic Datasets of Rice Leaf Disease
 This url provides a 50,001 synthetic raw images of rice leaf diseases (Bacterial Blight, Tungro, Brown Spot and Rice Blast)   
 
