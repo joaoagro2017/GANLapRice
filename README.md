@@ -7,8 +7,9 @@ This repository provides a pytorch pre-trained model inference for generating sy
 ### Generating Synthetic Images of Rice Leaf Disease
 https://github.com/NVlabs/stylegan2-ada-pytorch/blob/main/generate.py \
 python generate.py --outdir=out --trunc=1 --seeds=85,265,297,849 \
-      --network=https://data.mendeley.com/api/datasets/h659rky35w/draft/files/c3cbd004-f631-4f09-98db-653d14fc5b4d
-
+      --network=https://data.mendeley.com/api/datasets/h659rky35w/draft/files/c3cbd004-f631-4f09-98db-653d14fc5b4d \
+#### Sample of generated images
+<img src="https://user-images.githubusercontent.com/34354606/196154683-7e47a20c-0b55-4d09-b828-4b723f8c6625.png" width=700 height=550>
 ### Projecting Synthetic Images of Rice Leaf Disease
 https://github.com/NVlabs/stylegan2-ada-pytorch/blob/main/projector.py \
 python projector.py --outdir=out --target=~/rice_leaf_disease.png \
