@@ -5,13 +5,17 @@ This repository provides a pytorch pre-trained model inference for generating sy
 ![Our Method](https://user-images.githubusercontent.com/34354606/194866011-292203a3-df7e-46e3-b618-a2c5c1e86b10.png)
 
 ## Generating Synthetic Images of Rice Leaf Disease
+https://github.com/NVlabs/stylegan2-ada-pytorch/blob/main/generate.py
 python generate.py --outdir=out --trunc=1 --seeds=85,265,297,849 \
       --network=https://data.mendeley.com/api/datasets/h659rky35w/draft/files/c3cbd004-f631-4f09-98db-653d14fc5b4d
 
+## Projecting Synthetic Images of Rice Leaf
+https://github.com/NVlabs/stylegan2-ada-pytorch/blob/main/projector.py
+python projector.py --outdir=out --target=~/rice_leaf_disease.png \
+    --network=https://data.mendeley.com/api/datasets/h659rky35w/draft/files/c3cbd004-f631-4f09-98db-653d14fc5b4d
+
 ## Filtering blurry Synthetic Images
 python laplacian.py 
-
-
 
 ## Synthetic Datasets of Rice Leaf Disease
 This url provides a 50,001 synthetic raw images of rice leaf diseases (Bacterial Blight, Tungro, Brown Spot and Rice Blast)   
