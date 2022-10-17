@@ -6,7 +6,7 @@ This repository provides a pytorch pre-trained model inference for generating sy
 
 ## Generating Synthetic Images of Rice Leaf Disease
 python generate.py --outdir=out --trunc=1 --seeds=85,265,297,849 \
-      --network=https://
+      --network=https://data.mendeley.com/api/datasets/h659rky35w/draft/files/c3cbd004-f631-4f09-98db-653d14fc5b4d
 
 ## Filtering blurry Synthetic Images
 python laplacian.py 
