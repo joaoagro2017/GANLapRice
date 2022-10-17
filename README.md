@@ -24,10 +24,11 @@ This url provides 50,001 synthetically generated raw images of rice leaf disease
 https://data.mendeley.com/api/datasets/3k5bwbccph/draft/files/596bf84d-43ed-4406-bac7-b83363ea0fd5
 
 ## Curated example of an interpolated video
-
+proj.mp4 \
+The video shows the curated interpolated video produced using the pre-trained models
 
 ##  Experimental Datasets Description
-For training the generative model, our study used Rice Leaf Disease Image Samples from Mendeley Data https://data.mendeley.com/datasets/fwcj7stb8r/1 ,it’s an open-source dataset with 5,932 images of rice leaf disease. The images are grouped into four rice leaf 
+<i>For training the generative model, our study used Rice Leaf Disease Image Samples from Mendeley Data https://data.mendeley.com/datasets/fwcj7stb8r/1 ,it’s an open-source dataset with 5,932 images of rice leaf disease. The images are grouped into four rice leaf 
 diseases as Bacterial blight (BB), Tungro (TG), Brown Spot (BS), and Rice Blast (RB). The 
 category of BB, TG, BS, and RB have 1584, 1308, 1440, and 1600 images respectively. The raw 
-images come in different sizes ranging from 150 pixels to 300 pixels.
+images come in different sizes ranging from 150 pixels to 300 pixels. </i>
