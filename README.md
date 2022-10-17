@@ -15,7 +15,7 @@ python projector.py --outdir=out --target=~/rice_leaf_disease.png \
     --network=https://data.mendeley.com/api/datasets/h659rky35w/draft/files/c3cbd004-f631-4f09-98db-653d14fc5b4d
 
 ## Filtering blurry Synthetic Images
-python laplacian.py
+python Laplacian.py
 
 ## Synthetic Datasets of Rice Leaf Disease
 This url provides a 50,001 synthetic raw images of rice leaf diseases (Bacterial Blight, Tungro, Brown Spot and Rice Blast)   
