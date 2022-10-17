@@ -24,7 +24,7 @@ This url provides 50,001 synthetically generated raw images of rice leaf disease
 https://data.mendeley.com/api/datasets/3k5bwbccph/draft/files/596bf84d-43ed-4406-bac7-b83363ea0fd5
 
 ## Curated example of an interpolated video
-proj.mp4 \
+<a href="https://github.com/yunusa2k2/GANLapRice/blob/main/proj.mp4"> Curated Video</a> \
 The video shows the curated interpolated video produced using the pre-trained models
 
 ##  Experimental Datasets Description
