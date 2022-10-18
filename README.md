@@ -23,7 +23,7 @@ python Laplacian.py
 After generating synthetic images of rice leaf diseases, use the laplacian filter to remove the blurry ones
 
 ### Synthetic Datasets of Rice Leaf Disease
-This url provides 50,001 synthetically generated raw images of rice leaf diseases (Bacterial Blight, Tungro, Brown Spot and Rice Blast). With a size of 256 * 256 \
+This url provides 50,001 synthetically generated raw images of rice leaf diseases (Bacterial Blight, Tungro, Brown Spot and Rice Blast). With a size of 256 * 256. The images are grouped into 5 each containing ~ 10,000 .png images \
 https://data.mendeley.com/api/datasets/3k5bwbccph/draft/files/596bf84d-43ed-4406-bac7-b83363ea0fd5
 
 ### Curated example of an interpolated video
