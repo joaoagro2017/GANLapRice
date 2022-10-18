@@ -18,7 +18,8 @@ projector.py </a> --outdir=out --target=~/rice_leaf_disease.png \
       --network=https://drive.google.com/file/d/1K2oPovRjbULI2k6NqqFCWfeXhI0IVdbd/view?usp=sharing
 
 ### Filtering blurry Synthetic Images
-python Laplacian.py
+python
+<a href="https://github.com/yunusa2k2/GANLapRice/blob/main/Laplacian.py">Laplacian.py</a>
 
 After generating synthetic images of rice leaf diseases, use the laplacian filter to remove the blurry ones
 
