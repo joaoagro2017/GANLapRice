@@ -11,7 +11,7 @@ python generate.py --outdir=out --trunc=1 --seeds=85,265,297,849 \
       
 ### Sample of generated images
 <img src="https://user-images.githubusercontent.com/34354606/196154683-7e47a20c-0b55-4d09-b828-4b723f8c6625.png" width=700 height=550>
-### Projecting Synthetic Images of Rice Leaf Disease
+### Projecting Synthetic Images of Rice Leaf Disease \
 https://github.com/NVlabs/stylegan2-ada-pytorch/blob/main/projector.py 
 python projector.py --outdir=out --target=~/rice_leaf_disease.png \
       --network=https://drive.google.com/file/d/1K2oPovRjbULI2k6NqqFCWfeXhI0IVdbd/view?usp=sharing
