@@ -23,8 +23,52 @@ python Laplacian.py
 After generating synthetic images of rice leaf diseases, use the laplacian filter to remove the blurry ones
 
 ### Synthetic Datasets of Rice Leaf Disease
-This url provides 50,001 synthetically generated raw images of rice leaf diseases (Bacterial Blight, Tungro, Brown Spot and Rice Blast). With a size of 256 * 256. The images are grouped into 5 each containing ~ 10,000 .png images \
-https://data.mendeley.com/api/datasets/3k5bwbccph/draft/files/596bf84d-43ed-4406-bac7-b83363ea0fd5
+This url provides 50,001 synthetically generated raw images of rice leaf diseases (Bacterial Blight, Tungro, Brown Spot and Rice Blast). With a size of 256 * 256. The images are grouped into 5 each containing ~10,000 .png images 
+
+<table>
+  <tr>
+    <th>#</th>
+    <th>Download</th>
+    <th>Size</th>
+    <th>Quantity</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>
+<a href="https://drive.google.com/file/d/1bVWQNv68Oh6PB4NDgv9nH7whuBHbquJw/view?usp=sharing">Batch 1</a></td>
+    <td>891mb</td>
+    <td>10,001</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>
+<a href="https://drive.google.com/file/d/1sUr_ogXhGUYodmK9QA5fWHRH7F3LDRFf/view?usp=sharing">Batch 2</a></td>
+    <td>891mb</td>
+        <td>10,000</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>
+<a href="https://drive.google.com/file/d/1vyWg89Q2pDBRdcj8d9-1k4zeFKKZ9nxz/view?usp=sharing">Batch 3</a></td>
+    <td>890mb</td>
+        <td>10,000</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>
+<a href="https://drive.google.com/file/d/1-Qy5YgBxtw1N8mwJqiQ9BRufHqPf0foH/view?usp=sharing">Batch 4</a></td>
+    <td>889mb</td>
+        <td>10,000</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>
+<a href="https://drive.google.com/file/d/1R2b7nJG7Pky_XBVZ7GgjnPOXHAhBxOmZ/view?usp=sharing">Batch 5</a></td>
+    <td>891mb</td>
+        <td>10,000</td>
+  </tr>
+</table>
+
 
 ### Curated example of an interpolated video
 <a href="https://drive.google.com/file/d/1ggt_-SpMIzAZlZtGxvR_NszUazLVpIaK/view?usp=sharing"> Curated Video</a> \
