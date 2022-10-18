@@ -5,16 +5,16 @@ This repository provides a pytorch pre-trained model inference for generating sy
 ![Our Method](https://user-images.githubusercontent.com/34354606/194866011-292203a3-df7e-46e3-b618-a2c5c1e86b10.png)
 
 ### Generating Synthetic Images of Rice Leaf Disease
-https://github.com/NVlabs/stylegan2-ada-pytorch/blob/main/generate.py \
-python generate.py --outdir=out --trunc=1 --seeds=85,265,297,849 \
+python <a href="https://github.com/NVlabs/stylegan2-ada-pytorch/blob/main/generate.py">
+generate.py </a> --outdir=out --trunc=1 --seeds=85,265,297,849 \
       --network=https://drive.google.com/file/d/1K2oPovRjbULI2k6NqqFCWfeXhI0IVdbd/view?usp=sharing
       
 ### Sample of generated images
 <img src="https://user-images.githubusercontent.com/34354606/196154683-7e47a20c-0b55-4d09-b828-4b723f8c6625.png" width=700 height=550>
 
-### Projecting Synthetic Images of Rice Leaf Disease \
-https://github.com/NVlabs/stylegan2-ada-pytorch/blob/main/projector.py 
-python projector.py --outdir=out --target=~/rice_leaf_disease.png \
+### Projecting Synthetic Images of Rice Leaf Disease
+python <a href="https://github.com/NVlabs/stylegan2-ada-pytorch/blob/main/projector.py">
+projector.py </a> --outdir=out --target=~/rice_leaf_disease.png \
       --network=https://drive.google.com/file/d/1K2oPovRjbULI2k6NqqFCWfeXhI0IVdbd/view?usp=sharing
 
 ### Filtering blurry Synthetic Images
